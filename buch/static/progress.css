@@ -1,0 +1,31 @@
+body {
+    font-family: vollkorn;
+    text-align: center;
+}
+
+#content_box {
+    width: 20em;
+    margin: auto;
+}
+
+.percent {
+    font-weight: bold;
+    color: #950512;
+}
+
+#bar {
+    margin: auto;
+    width: 15em;
+    height:1em;
+    border: 1px dotted;
+    display: none;
+}
+
+#done {
+    height: 1em;
+    background: #950512;
+}
+
+#page_at {
+    text-align: right;
+}
