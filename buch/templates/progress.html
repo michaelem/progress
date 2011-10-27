@@ -43,7 +43,7 @@
     <div id="content_box">
         <h1>progress</h1>
         <p>
-                <input placeholder="page that you're at" id="page_at" name="page"></input>
+                <input placeholder="current page" id="page_at" name="page"></input>
                 <select id="book">
                 {% for book in books %}
                     <option id={{ book.id }} value="{{ book.page_count }}">
